@@ -13,4 +13,5 @@ jobs:
       with:
         python-version: '3.10'
     - run: ls -la
+    - run: chmod 755 hello-python.py
     - run: ./hello-python.py
